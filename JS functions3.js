@@ -1,4 +1,5 @@
-var i, j, red, kolonne;
+function Oppgave_3(a, b) {
+    var i, j, red, kolonne;
 rad=prompt("Skriv inn antall rader i tabellen");
 kolonne=prompt("Skriv inn antall kolonner i tabellen");
 
@@ -11,3 +12,4 @@ for(i=1; 1<=rad; i++) {
     document.write("</tr>");
 }
 document.write("</table>");
+}
