@@ -1,4 +1,5 @@
-let n = 9;
+function Oppgave_1(a, b) {
+  let n = 9;
 let string = "";
 for (let i = 0; i < n; i++) {
   for (let j = 0; j <= i; j++) {
@@ -7,3 +8,4 @@ for (let i = 0; i < n; i++) {
   string += "<br>";
 }
 document.write(string);
+}
